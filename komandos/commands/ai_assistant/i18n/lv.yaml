@@ -1,0 +1,11 @@
+description: |
+  <div class="module-description">
+    <h3>Ļoti eksperimentāls mākslīgā intelekta asistents (pašlaik tikai izmantojot maksas Google Gemini interneta modeļa izsaukumus).</h3>
+    <p>Lai sāktu, saki vārdu <code>Oskar</code> un sāc runāt. Katru reizi, kad klusēsi pussekundi, Oskars saņems visu, ko tam teici.
+    Pašlaik KomandOS atbalsta tikai vienu komandu, ko Oskars prot - atvērt meklējumu pārlūkā.
+    Lai pārtrauktu runāt ar Oskaru, saki vienu no vārdiem <code>beidz, beigt, brīvs</code>.
+  </div>
+asr_guide: "Oskar"
+activate:
+  default: "oskar"
+exit_context: "brīvs,beidz,esi brīvs"

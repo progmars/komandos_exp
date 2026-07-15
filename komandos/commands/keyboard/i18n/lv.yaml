@@ -1,0 +1,42 @@
+description: |
+  <div class="module-description">
+    <h3>Tastatūras taustiņi un kombinācijas</h3>
+    <ul>
+      <li><code>pa kreisi</code></li>
+      <li><code>pa labi</code></li>
+      <li><code>augšup</code></li>
+      <li><code>lejup</code></li>      
+      <li><code>lapa augšup</code></li> - PgUp taustiņš, arī peles ritināšana augšup
+      <li><code>lapa lejup</code></li> - PgDn taustiņš, arī peles ritināšana lejup
+      <li><code>enter, ievadi</code></li>
+      <li><code>atpakaļ, bekspeis</code></li>
+      <li><code>iziet, eskeip</code></li>
+      <li><code>dzēst, dzēs, izdzēst, izdzēs</code></li> - Delete taustiņš
+      <li><code>tab</code></li>
+      <li><code>atzīmē visu, iezīmē visu</code></li> - Ctrl-A taustiņu kombinācija
+      <li><code>kopē, kopēt</code></li> - Ctrl-C taustiņu kombinācija
+      <li><code>ielīmē, ielīmēt</code></li> - Ctrl-V taustiņu kombinācija
+      <li><code>atcelt, atcel</code></li> - Ctrl-Z taustiņu kombinācija
+      <li><code>atkārtot, atkārto</code></li> - Ctrl-Y taustiņu kombinācija
+      <li><code>vindous</code></li> - Windows taustiņš
+     </ul>
+  </div>
+asr_guide: "enter,augšup,lejup,lapa lejup,lapa augšup,backspace,escape"
+activate:
+  left: "pa kreisi"
+  right: "pa labi"
+  up: "augšup,uz augšu"
+  down: "lejup,uz leju"
+  page_up: "lapa augšup"
+  page_down: "lapa lejup"
+  enter: "enter,ievadi"
+  backspace: "atpakaļ,backspace,bekspeis"
+  escape: "iziet,escape,eskeip"
+  delete: "dzēst,izdzēs"
+  tab: "tab,dab"
+  select_all: "atzīmē visu,iezīmē visu"
+  copy: "kopēt,kopē"
+  paste: "ielīmēt,ielīmē,jālīmē"
+  undo: "atcelt,atcel"
+  redo: "atkārtot,atkārto"
+  win: "windows,vindous"

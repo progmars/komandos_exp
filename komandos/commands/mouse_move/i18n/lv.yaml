@@ -1,0 +1,28 @@
+description: |
+  <div class="module-description">
+    <h3>Peles kustības</h3>
+    <p>Lai komandas nepārklātos ar tastatūras navigāciju, peles kustību ieslēgšanai ir vismaz vienu reizi jāpasaka aktivācijas vārds <code>pele</code>. 
+    Pēc tam var kontrolēt kustības, neatkārtojot aktivācijas vārdu.
+    Pasakot jebkuru citu komandu, peles aktivācija tiks aizmirsta un būs atkārtoti jāpasaka <code>pele</code>.
+    <ul>
+      <li><code>pa kreisi, pele pa kreisi</code></li>
+      <li><code>pa labi, pele pa labi</code></li>
+      <li><code>augšup, pele augšup, pele uz augšu</code></li>
+      <li><code>lejup, pele lejup, pele uz leju</code></li>
+     </ul>
+  </div>
+asr_guide: "pele,pa kreisi,pa labi,augšup,lejup"
+activate:
+  # ieslēgt kontekstu un izpildīt vairākas darbības pēc kārtas,
+  # nesakot "pele" pirms katras darbības
+  default: "pele"
+  # izpildīt darbību vienu reizi
+  direct_left: "pele pa kreisi"
+  direct_right: "pele pa labi"
+  direct_up: "pele augšup,pele uz augšu"
+  direct_down: "pele lejup,pele uz leju"  
+in_context:
+  left: "pa kreisi"
+  right: "pa labi"
+  up: "augšup,uz augšu"
+  down: "lejup,uz leju"

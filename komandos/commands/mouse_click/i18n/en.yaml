@@ -1,0 +1,6 @@
+description: "Mouse click commands"
+asr_guide: "click,leftclick,left click,doubleclick,double-click,rightclick,right"
+activate:
+  left: "click,leftclick,left click,click left"
+  right: "rightclick,right click,click right"
+  double: "doubleclick,double click,double-click,double"

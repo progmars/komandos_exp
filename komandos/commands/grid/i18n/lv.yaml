@@ -1,0 +1,26 @@
+description:  |
+  <div class="module-description">
+    <h3>Šūnu tīkls</h3>
+    <p>Tīkls palīdz novietot peles kursoru vajadzīgajā ekrāna vietā.</p>
+    <p>Lai attēlotu tīklu, saki vārdu <code>tīkls</code>. 
+       Pēc tam izvēlies vienu no deviņām šūnām, nosaucot tās numuru. Peles kursors tiks novietots apgabala centrā.
+       Pēc tam var uzreiz veikt vajadzīgo darbību ar peli, nosaucot kādu no peles komandām, 
+       vai arī turpināt fokusēšanos, atkal nosaucot šūnas numuru.
+    </p>
+    <p>Tīkls tiek aizvērts, nosaucot jebkuru citu komandu vai arī sakot vienu no vārdiem <code>beigt, beidz, aizver, aizvērt</code>
+  </div>
+asr_guide: "tīkls,atpakaļ,ārā,beidz,stop,beigt,1,2,3,4,5,6,7,8,9,viens,divi,trīs,četri,pieci,seši,septiņi,astoņi,deviņi"
+activate:
+  default: "tīkls,tīklis,tikls,tiklis,tikus"
+exit_context: "beigt,beidz,aizver,aizvērt"
+in_context:
+  back: "atpakaļ,ārā"
+  one: "viens,1"
+  two: "divi,2"
+  three: "trīs,3"
+  four: "četri,4"
+  five: "pieci,5"
+  six: "seši,6"
+  seven: "septiņi,7"
+  eight: "astoņi,8"
+  nine: "deviņi,9"

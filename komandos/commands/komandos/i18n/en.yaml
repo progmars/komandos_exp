@@ -1,0 +1,7 @@
+description: "Command Komandos"
+asr_guide: "wake,sleep,komandos"
+activate:
+  wake: "komandos wake,commandos wake"  
+  sleep: "komandos sleep,commandos sleep"
+  help: "komandos help,commandos help"
+exit_context: "escape,quit"

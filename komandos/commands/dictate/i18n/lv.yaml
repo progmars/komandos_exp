@@ -1,0 +1,14 @@
+description: |
+  <div class="module-description">
+    <h3>Teksta diktēšana</h3>
+    <p>Lai ieslēgtu teksta diktēšanas režīmu, saki vārdu <code>diktāts</code> vai <code>raksti</code>
+    Teksts tiek atpazīts brīdī, kad ir bijis vismaz pussekundi garš klusums 
+    vai arī ir runāts ilgāk par 10 sekundēm.</p>
+    <p>Teksta diktēšanas laikā komandas netiek atpazītas.
+    Lai pārtrauktu diktāta režīmu, saki vārdu 
+    <code>beidz</code>, <code>beigt</code> vai <code>stop</code>.</p>
+  </div>
+asr_guide: "raksti,diktāts,beidz,beigt,stop"
+activate:
+  default: "raksti,diktāts"
+exit_context: "beidz,stop,beigt"

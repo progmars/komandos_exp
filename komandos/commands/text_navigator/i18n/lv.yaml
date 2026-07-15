@@ -1,0 +1,15 @@
+description:  |
+  <div class="module-description">
+    <h3>Teksta navigators</h3>
+    <p>Teksta noteikšanas sistēma atpazīst jebkuru tekstu uz ekrāna un ļauj pārvietot peles kursoru virs šī teksta.</p>
+    <p>Lai atpazītu tekstus, saki vienu no vārdiem <code>navigators, redzi, skaties</code>.
+    Pēc tam uzgaidi dažas sekundes, un KomandOS attēlos rāmīšus apkārt visiem atrastajiem teksta apgabaliem.
+    Lai pārvietotu peles kursoru virs vajadzīgā teksta, nolasi kādu unikālu šī teksta vārdu vai vairākus. 
+    Ja ar pirmo reizi nesanāk, mēģini vēlreiz.
+    </p>
+    <p>Navigācijas iekrāsojums tiek noņemts, ja tiek atrasts nosauktais vārds, kā arī nosaucot jebkuru citu komandu vai arī sakot vienu no vārdiem <code>beigt, beidz, aizver, aizvērt</code>
+  </div>
+asr_guide: "navigators,skaties,redzi,beigt,beidz,aizver,aizvērt"
+activate:
+  default: "navigators,skaties,redzi"
+exit_context: "beigt,beidz,aizver,aizvērt"

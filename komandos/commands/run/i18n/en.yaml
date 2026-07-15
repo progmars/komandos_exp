@@ -1,0 +1,11 @@
+description: "Run system launch command"
+asr_guide: "run,execute,open"
+activate:
+  default: "run,execute,open"
+in_context:
+  # all detectable context commands
+  firefox: "firefox"
+  edge: "edge"
+  winword: "vord,word,vod"
+  notepad: "notepad"
+  delfi: "delfi,delphi"

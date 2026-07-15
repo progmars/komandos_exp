@@ -1,0 +1,16 @@
+description: "Navigate in a helper grid"
+asr_guide: "grid,back,out,escape,quit,1,2,3,4,5,6,7,8,9,one,two,three,four,five,six,seven,eight,nine"
+activate:
+  default: "grid"
+exit_context: "escape,quit"
+in_context:
+  back: "back,out"
+  one: "one,1"
+  two: "two,2"
+  three: "three,3"
+  four: "four,4"
+  five: "five,5"
+  six: "six,6"
+  seven: "seven,7"
+  eight: "eight,8"
+  nine: "nine,9"

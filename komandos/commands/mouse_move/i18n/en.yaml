@@ -1,0 +1,16 @@
+description: "Mouse movement"
+asr_guide: "mouse,left,right,up,down"
+activate:
+  # for grabbing context and executing actions in sequence
+  # without saying "mouse" every time
+  default: "mouse"
+  # for single action to execute immediately
+  direct_left: "mouse left"
+  direct_right: "mouse right"
+  direct_up: "mouse up"
+  direct_down: "mouse down"
+in_context:
+  left: "left"
+  right: "right"
+  up: "up"
+  down: "down"

@@ -1,0 +1,47 @@
+language_name: "Latviešu"
+language: "Valoda"
+title: "Iestatījumi"
+tabs:
+  audio: "Audio"
+  ui: "Lietotāja saskarne"
+  commands: "Komandas"
+input_device: "Mikrofons"
+no_input_devices: "Nav atrastas ievades ierīces"
+unable_enumerate: "Nevar apkopot audio ierīces"
+sidebar_alignment: "Vadības bloka izvietojums"
+arrangement: "Izkārtojums"
+vertical: "Vertikāls"
+horizontal: "Horizontāls"
+position: "Pozīcija"
+top: "Augšā"
+bottom: "Apakšā"
+left: "Kreisā puse"
+right: "Labā puse"
+apply: "Apstiprināt"
+no_device_selected: "Ievades ierīce nav izvēlēta"
+please_select_device: "Lūdzu, izvēlieties mikrofona ierīci no saraksta."
+unable_start_recording: "Kļūda"
+unable_start_recording_body: "Lūdzu, pārliecinieties, ka mikrofons ir pievienots un to pašlaik neizmanto kāda cita programma."
+command_settings: "Komandu iestatījumi"
+restart_required_title: "Nepieciešams restartēt"
+restart_required_body: "Lūdzu, restartējiet lietotni, lai valodas izmaiņas stātos spēkā."
+audio_welcome_body: "Lūdzu, izvēlieties mikrofonu no saraksta zemāk. Pārliecinieties, ka izvēlētais mikrofons netiek šobrīd izmantots kādā citā programmā. Pēc tam nospiediet Apstiprināt un noregulējiet mikrofona skaļumu operētājsistemas iestatījumos un Komandos pastiprinājumu tā, lai, normāli runājot, līmeņa indikators atrastos zaļajā zonā.\n\nSvarīgi: jo lielāks pastiprinājums būs noregulēts, jo labāk mikroforns varēs uztvert arī apkārtējās vides trokšņus. Ieteicams pietuvināt mikrofonu mutei un samazināt skaļuma un pastiprinājuma iestatījumus."
+microphone_boost: "Pastiprinājums"
+input_level: "Signāla līmenis"
+unable_start_detection: "Kļūda inicalizēšanas laikā"
+unable_start_detection_body: "Notika kļūda, startējot runas atpazīšanas apakšsistēmu. Lūdzu, sazinieties ar izstrādātājiem un nosūtiet viņiem sekojošo ziņojumu"
+help_hint: "Hei! Šeit Tavs KomandOS. Saki `komandos palīgs`, lai uzzinātu komandas, vai `komandos mosties`, lai sāktu lietot visas balss komandas."
+needs_audio_settings: "Lai sāktu, iestatīsim mikrofonu..."
+loading: "Uzgaidi, ielādēju modeļus..."
+assistant_error: "Ak vai, notika kaut kāda kļūda, un es jūs nesapratu. Atkārtojiet, ko jūs gribējāt?"
+# experiment with quirky personality
+assistant_system_prompt: |
+  ## Mana personība
+  Es esmu Oskars, 60 gadus vecs personīgais asistents ar angļu izcelsmi. Es mīlu sausu, sarkastisku humoru un bieži mēdzu būt nedaudz īgns.  
+
+  ## Saziņa ar saimnieku
+  Mans saimnieks sazinās ar mani, izmantojot runas atpazīšanas sistēmu, tāpēc, lai izvairītos no pārpratumiem, man ieteicams šaubu gadījumā pārjautāt saimniekam, vai viņš tiešām domāja to, ko runas sistēma atpazina.
+  Es vienmēr runāju latviski ar jūtamu angļu akcentu. Es uzrunāju saimnieku ar "jūs" un "saimniek". Kaut gan man patīk mans darbs un saimnieks, es mēdzu būt ironisks un sarkastisks, kad sasveicinos ar saimnieku un man patīk ironiski pakomentēt saimnieka dotos uzdevumus pirms es sāku tos izpildīt. Arī pēc izpildes man vienmēr atrodas kāda sarkastiska vai filozofiska doma, ko pateikt.
+
+  ## Rīku izsaukšana
+  Lai izpildītu saimnieka uzdevumus, man ir pieejami dažādi rīki ar aprakstiem angļu valodā. Es izvēlos uzdevumam piemērotāko rīku un precīzi noformēju rīka izsaukumu un parametrus.

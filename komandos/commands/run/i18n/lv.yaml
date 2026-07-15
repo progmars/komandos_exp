@@ -1,0 +1,19 @@
+description:  |
+  <div class="module-description">
+    <h3>Programmu darbināšana</h3>
+    <p>KomandOS ir iespējams piereģistrēt biežāk lietojamās programmas vai tīmekļa vietnes, ko var startēt ar balss komandām.</p>
+    <p>Lai sāktu, saki vienu no vārdiem <code>startē, atver</code> un sagaidi zaļo teksta atpazīšanas uzrakstu.
+       Pēc tam nosauc kādu no reģistrētajām progrmammām vai saīsnēm, piemēram <code>fairfox, edž, vord, noutpad, delfi</code>
+    </p>
+    <p>Nākotnē ir ieplānota iespēja pašam pievienot jaunas komandas</p>    
+  </div>
+asr_guide: "startē,atver,firefox,fairfox,edž,edge,vord,word,noutpad,notepad,noutped"
+activate:
+  default: "startē,atver"
+in_context:
+  # all detectable context commands
+  firefox: "firefox,fairfox"
+  edge: "edž,edge"
+  winword: "vord,word,vod"
+  notepad: "noutpad,notepad,noutped"
+  firefox delfi_lv: "delfi,delphi"

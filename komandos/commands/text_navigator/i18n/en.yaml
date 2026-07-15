@@ -1,0 +1,5 @@
+description: "Navigate between text items"
+asr_guide: "navigator,back,out,escape,quit"
+activate:
+  default: "navigator"
+exit_context: "escape,quit"

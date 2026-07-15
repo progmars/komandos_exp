@@ -1,0 +1,5 @@
+description: "Write text"
+asr_guide: "dictate,escape,quit"
+activate:
+  default: "dictate"
+exit_context: "escape,quit"

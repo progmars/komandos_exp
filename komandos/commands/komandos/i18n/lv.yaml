@@ -1,0 +1,23 @@
+description: |
+  <div class="module-description">
+    <h3>KomandOS pamata komandas</h3>
+    <ul>
+      <li><code>komandos mosties</code> — pamodina KomandOS, lai varētu lietot visas komandas.</li>
+      <li><code>komandos guli</code> — iemidzina KomandOS. Miega režīmā ir pieejamas tikai dažas KomandOS komandas - pamodināt un rādīt palīdzību.</li>
+      <li><code>komandos palīgs</code> — parāda palīdzību par pieejamajām komandām (šis logs).
+      Lai ritinātu tekstu, izmantojiet komandas <code>augšup, uz augšu, lejup,uz leju, lejup,uz leju, lapa augšup, lapa lejup</code> 
+      </li>
+      <li><code>beigt, beidz, aizver, aizvērt</code> — aizvērt palīdzības logu.</li>
+    </ul>
+  </div>
+asr_guide: "komandos mosties,guli,komandos"
+exit_context: "beigt,beidz,aizver,aizvērt"
+activate:
+  wake: "komandos mosties"
+  sleep: "komandos guli"
+  help: "komandos palīgs"
+in_context:
+  up: "augšup,uz augšu"
+  down: "lejup,uz leju"
+  page_up: "lapa augšup"
+  page_down: "lapa lejup"  

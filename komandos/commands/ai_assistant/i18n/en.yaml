@@ -1,0 +1,5 @@
+description: "Launch asistant"
+asr_guide: "Oscar"
+activate:
+  default: "oscar"
+exit_context: "escape,quit"

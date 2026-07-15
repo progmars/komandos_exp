@@ -1,0 +1,14 @@
+description: |
+  <div class="module-description">
+    <h3>Peles klikšķi</h3>
+    <ul>
+      <li><code>klik, klikšķis</code> — klikšķis ar peles kreiso pogu.</li>
+      <li><code>labais, konteksts, labklik, labais klik, labais klikšķis</code> — klikšķis ar labo peles pogu.</li>
+      <li><code>dubults,dubult,dubultklik,dubultklikšķis</code> — dubultklikšķis ar peles kreiso pogu.</li>
+     </ul>
+  </div>
+asr_guide: "klik,klikšķis,labais,labklik,konteksts,dubults,dubultklik,dubultklikšķis"
+activate:
+  left: "klik,klikšķis"
+  right: "labais,konteksts,labklik,labais klik,labais klikšķis"
+  double: "dubults,dubult,dubultklik,dubultklikšķis"
